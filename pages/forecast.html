@@ -16,9 +16,9 @@ Days : <a href="#/forecast/2" ng-class="{ 'bg-primary' : days === '2'}">2</a> | 
           <h3 class="panel-title">{{convertToDate(w.dt) | date: 'd MMM, y'}}</h3>
         </div>
         <div class="panel-body">
-          Max  temprature:{{convertToCelsius(w.temp.max)}}
+          Max  temprature:{{convertToCelsius(w.temp.max)}}&deg;C
           <br>
-          Min temprature:{{convertToCelsius(w.temp.min)}}
+          Min temprature:{{convertToCelsius(w.temp.min)}}&deg;C
           <br>
            Humidity:{{w.humidity}}
            <br>
